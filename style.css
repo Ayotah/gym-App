@@ -1,0 +1,76 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+header{
+    background: linear-gradient(100deg,#c4b6fd,#a5bafd);
+}
+.navbar-brand,.text-pimary{
+color: #2d56fb !important;
+}
+.nav-link{
+     font-weight: 500;
+}
+.nav-link:hover{
+    color: #fff;
+}
+.btn-primary{
+    background-color: rgb(67, 67, 251) !important;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #4d76fc !important;
+}
+P{
+    font-size: 18px;
+}
+.blue-bg{
+    background-color: #4d76fc;
+    color: #fff;
+}
+.text-pimary{
+    color: #2d56fd;
+}
+.text{
+    color: white;
+}
+#fluid{
+    height: 350px;
+    width: 350px;
+    /* object-fit: contain; */
+}
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+  }
+  .nav-tabs .nav-item.show .nav-link,.nav-tabs .nav-link.active{
+    border: none !important;
+    background-color: #2d56fd;
+    color: #fff;
+    padding: 4px 8px;
+  }
+  .nav-tabs{
+    border: none !important;
+  }
+  #logo{
+    width: 300px;
+  }
+  #img-header{
+    border-radius: 8px;
+  }
+  #home-tab, #profile-tab,#contact-tab{
+    transform: scale(1.05);
+    transition: .5s ease-in-out;
+  }
+
+  #images:hover{
+    transform: scale(1.02);
+  }
+  .icon{
+    width:15px ;
+    fill: black !important;
+  }
+  svg{
+    width: 60px;
+    fill: blue;
+  }
